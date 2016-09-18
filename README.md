@@ -1,2 +1,2 @@
 # task0002
-study javascript
+learn javascript
