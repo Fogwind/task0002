@@ -55,14 +55,18 @@ body{
 	margin: 100px auto 30px auto;
 	font-size: 25px;
 }
+.hobbybox{
+	margin-bottom: 50px;
+}
+/************第一阶段**************/
 #hobby{
 	height: 25px;
 	width: 400px;
-	font-size: 25px;
+	font-size: 16px;
 }
 #hobbysubmit{
 	height: 30px;
-	font-size: 25px;
+	font-size: 16px;
 }
 .tips{
 	font-size: 16px;
@@ -75,4 +79,39 @@ body{
 #outputhobby{
 	font-size: 20px;
 	margin-top: 0.5em;
+}
+
+/************第二阶段**************/
+#intrest{
+	height: 200px;
+	width: 690px;
+	font-size: 16px;
+}
+#intrestbutt{
+	display: block;
+	height: 30px;
+	font-size: 20px;
+}
+#outputintrest{
+	font-size: 20px;
+	margin-top: 0.5em;
+}
+/************第三阶段**************/
+#fond{
+	height: 200px;
+	width: 690px;
+	font-size: 16px;
+}
+#fondbutt{
+	display: block;
+	height: 30px;
+	font-size: 20px;
+}
+#outputfond{
+	font-size: 20px;
+	margin-top: 0.5em;
+}
+#errortips{
+	font-size: 10px;
+	color: red;
 }
