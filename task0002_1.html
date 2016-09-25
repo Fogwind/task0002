@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
 	<title>百度前端学院小练习</title>  
-	<link rel="stylesheet" type="text/css" href="style/exercise.css" />
+	<link rel="stylesheet" type="text/css" href="style/task0002_1.css" />
   </head>
   
   <body>
@@ -29,12 +29,27 @@
 	
 	<!--主体部分-->
     <div id="mainsection">
-	   <div id="hobbybox">
+	   <div class="hobbybox">
            <label for="hobby">输入您的兴趣爱好：</label>
            <input type="text" name="hobby" id="hobby" />
 		   <input type="submit" value="确定" id="hobbysubmit" />
 		   <p class="tips"><span>注意：</span>不同爱好之间请用逗号分隔。</p>
 		   <p id="outputhobby">您输入的兴趣爱好是：</p>
+	   </div>
+	   
+	   <div class="hobbybox">
+           <p>输入您的兴趣爱好：</p>
+           <textarea id="intrest"></textarea>
+		   <button type="button" id="intrestbutt">确定</button>
+		   <p id="outputintrest">您输入的兴趣爱好是：</p>
+	   </div>
+	   
+	   <div class="hobbybox">
+           <p>输入您的兴趣爱好：</p>
+           <textarea id="fond"></textarea>
+		   <p id="errortips"></p>
+		   <button type="button" id="fondbutt">确定</button>
+		   <p id="outputfond">您输入的兴趣爱好是：</p>
 	   </div>
 	</div>
 	
