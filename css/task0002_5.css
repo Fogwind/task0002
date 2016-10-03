@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: SimSun;
+	background-color: #D3D3D3;
+}
+/*************头部导航条样式**************/
+#header{
+   height: 80px;
+   background-color: #003377;
+   position: relative;
+   overflow: hidden;
+   min-width: 980px;
+}
+#githublogo{
+	position: absolute;
+	bottom: -2.5px;
+	right: 10px;
+}
+
+#nav{
+	position: relative;
+	height: 80px;
+	width: 980px;
+	margin: auto;
+}
+
+#mylogo{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+}
+#navbar{
+	list-style: none;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+#navbar li{
+	display: inline;
+	font-size: 14px;
+	margin-left: 28px;
+}
+.navlink{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*************正文部分样式**************/
+#mainsection{
+	width: 980px;
+	margin: 50px auto 30px auto;
+	font-size: 0;
+}
+#drag{
+	width: 544px;
+	margin: auto;
+}
+#box1{
+	width: 150px;
+	height: 420px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	border: solid black 1px;
+	margin-right: 240px;
+	position: relative;
+}
+#box2{
+	width: 150px;
+	height: 420px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	border: solid black 1px;
+	position: relative;
+}
+.innerbox{
+	border-bottom: solid black 1px;
+	background-color: rgba(30,144,255,0.7);
+	height: 69px;
+	width: 150px;
+	font-size: 12px;
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+p{
+	font-size: 20px;
+	width: 544px;
+	margin: auto;
+	margin-top: 25px;
+}
