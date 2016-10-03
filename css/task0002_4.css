@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: SimSun;
+	background-color: #D3D3D3;
+}
+/*************头部导航条样式**************/
+#header{
+   height: 80px;
+   background-color: #003377;
+   position: relative;
+   overflow: hidden;
+   min-width: 980px;
+}
+#githublogo{
+	position: absolute;
+	bottom: -2.5px;
+	right: 10px;
+}
+
+#nav{
+	position: relative;
+	height: 80px;
+	width: 980px;
+	margin: auto;
+}
+
+#mylogo{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+}
+#navbar{
+	list-style: none;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+#navbar li{
+	display: inline;
+	font-size: 14px;
+	margin-left: 28px;
+}
+.navlink{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*************正文部分样式**************/
+#mainsection{
+	width: 980px;
+	margin: 100px auto 30px auto;
+}
+#searchbox{
+	text-align: center;
+}
+#searchframe{
+	width: 504px;
+	height: 30px;
+}
+#displayop{
+	width: 504px;
+	margin: auto;
+	position: relative;
+}
+#matches{
+	display: none;
+	position: absolute;
+	top: 34px;
+	border-bottom: solid #A9A9A9 1px;
+	border-left: solid #A9A9A9 1px;
+	border-right: solid #A9A9A9 1px;
+	width: 506px;
+	left: 0;
+	background-color: #FFFFFF;
+	list-style: none;
+	text-align: left;
+}
+#matches li:hover{
+	background-color: #DDDDDD;
+}
+.hover{
+	background-color: #DDDDDD;
+}
