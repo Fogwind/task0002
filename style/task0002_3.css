@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: SimSun;
+	background-color: #D3D3D3;
+}
+/*************头部导航条样式**************/
+#header{
+   height: 80px;
+   background-color: #003377;
+   position: relative;
+   overflow: hidden;
+   min-width: 980px;
+}
+#githublogo{
+	position: absolute;
+	bottom: -2.5px;
+	right: 10px;
+}
+
+#nav{
+	position: relative;
+	height: 80px;
+	width: 980px;
+	margin: auto;
+}
+
+#mylogo{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+}
+#navbar{
+	list-style: none;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+#navbar li{
+	display: inline;
+	font-size: 14px;
+	margin-left: 28px;
+}
+.navlink{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*************正文部分样式**************/
+#mainsection{
+	width: 980px;
+	margin: 100px auto 30px auto;
+}
+.imgbox{
+	width: 600px;
+	height: 355px;
+    overflow:hidden;
+	position: relative;
+	background-color: #FFFFFF;
+}
+#gamecg{
+	position: absolute;
+	width: 4200px;
+	font-size: 0;
+	left: -600px;
+}
+#pre,#next{
+	display: none;
+	position: absolute;
+	text-decoration: none;
+	padding: 10px 0 10px 0;
+	height: 1em;
+	width: 80px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #FFFFFF;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	background-color: rgba(136,136,136,0.3);	
+}
+#pre{
+	left: 0;
+}
+#next{
+	right: 0;
+}
+.imgbox:hover #pre,.imgbox:hover #next{
+	display: block;
+}
+#pre:hover,#next:hover{
+	background-color: rgba(136,136,136,0.7);
+}
+#cyclepoint{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	list-style: none;
+	height: 20px;
+	text-align: center;
+	font-size: 0;
+}
+#cyclepoint li{
+	display: inline-block;
+	margin-right: 15px;
+}
+#cyclepoint a{
+	font-size: 15px;
+	text-decoration: none;
+	color: #5599FF;
+}
+#cyclepoint a:hover{
+	color: #003377;
+}
+#cyclepoint a.hover{
+	color: #003377;
+}
+.orderbutt{
+	margin-top: 30px;
+	font-size: 20px;
+	margin-right: 20px;
+	padding: 10px;
+}
