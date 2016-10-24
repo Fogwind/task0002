@@ -1,5 +1,7 @@
 # task0002
 2015百度前端学院的小练习。
+在线演示：https://fogwind.github.io/task0002/task0002_1.html
+
 ###util.js
 util.js中实现以下方法：
 ####Javascript基础
