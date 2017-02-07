@@ -1,12 +1,6 @@
 # task0002
 2015百度前端学院的小练习。
 在线演示：https://fogwind.github.io/task0002/task0002_1.html
-####其他一些项目的在线演示：
-
-- 五子棋：https://fogwind.github.io/wuziqi.html
-- 弹幕墙：https://codepen.io/fogwind/pen/EgpAdJ
-- Bootstrap基础练习：https://codepen.io/fogwind/pen/xEmLqb
-- Bootstrap实战：https://fogwind.github.io/BootstrapPractice/bootstrappractice.html （缺点：图片过多，加载时间长。后需改进：使用图片懒加载技术改进）
 
 ###util.js
 util.js中实现以下方法：
